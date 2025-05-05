@@ -1,0 +1,6 @@
+train: C:\Users\lojia\OneDrive\Documents\School\Degree\Year 3 Sem 1\TCV Computer VIsion\Mango Dataset\Preprocess\Train
+val: C:\Users\lojia\OneDrive\Documents\School\Degree\Year 3 Sem 1\TCV Computer VIsion\Mango Dataset\Preprocess\Test
+nc: 5
+names: ["Early Ripe", "Partially Ripe", "Ripe","Rotten","Unripe"]
+
+##python val.py --weights runs/train/yolo_ripeness_model5/weights/best.pt --data "C:\Users\lojia\OneDrive\Documents\School\Degree\Year 3 Sem 1\TCV Computer VIsion\Mango Dataset\yolov5\data.yaml" --img 512 --conf 0.5
